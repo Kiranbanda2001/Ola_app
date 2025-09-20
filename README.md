@@ -1,7 +1,7 @@
-🚖 Ola Rides - Interactive Analytics Dashboard
+## 🚖 Ola Rides - Interactive Analytics Dashboard
 The OLA Data Analyst Project analyzes ride-booking data using SQL and Power BI to track ride volumes, customer behavior, and driver performance. It focuses on booking statuses, revenue breakdowns by payment method, and top customers. SQL queries are used to calculate ride statistics, and the final Power BI dashboard visualizes key data, including ride volumes, vehicle performance, and sales. The analysis helps optimize OLA's services by identifying trends and areas for improvement.
 
-🔍 Project Overview
+## 🔍 Project Overview
 This project simulates real-world ride-calling data and includes 20+ fields such as:
 
 Date & Time: Tracks booking trends and peak hours.
@@ -22,15 +22,18 @@ Ride_Distance: Distance covered in the ride (in kilometers).
 Driver_Ratings: Ratings provided by customers to the drivers (out of 5).
 Customer_Rating: Ratings provided by drivers to the customers (out of 5).
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 SQL: Data wrangling, cleaning and querying for insights.
 Power BI: Dashboard creation and detailed reporting.
 Python/Excel: Data preprocessing and randomization.
 
-📂 SQL Queries
+## 📂 SQL Queries
 All SQL queries used in this project are stored separately in SQL_Queries.txt.
 You can review them independently to understand the exact data extraction and transformations applied.
 
-📂 Power Bi Dashboard
-Overall Page
+## 📂 Power Bi Dashboard
+Interactive dashboards are built in Power BI to visualize key metrics like revenue, cancellations, ratings, and booking patterns.
+
+🔎 For detailed insights, interpretations, and recommendations, please open the ola ride project.pbix report included in this repository.
+
 
