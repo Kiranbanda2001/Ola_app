@@ -30,7 +30,7 @@ st.markdown(
 import pandas as pd
 import streamlit as st
 
-DATA_PATH = "https://raw.githubusercontent.com/Kiranbanda2001/Ola_app/main/ola_cleaned.csv"
+DATA_PATH = "https://raw.githubusercontent.com/Kiranbanda2001/Ola_app/refs/heads/main/ola_cleaned_capped_final.csv"
 
 @st.cache_data
 def load_data(path):
@@ -519,3 +519,4 @@ st.sidebar.write("Download the currently filtered dataset:")
 csv = df_filtered.to_csv(index=False).encode("utf-8")
 st.sidebar.download_button("Download filtered CSV", csv, file_name="ola_filtered.csv", mime="text/csv")
    
+
